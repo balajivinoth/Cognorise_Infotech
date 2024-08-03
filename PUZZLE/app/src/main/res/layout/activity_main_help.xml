@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg"
+    android:padding="15dp"
+    tools:context=".MainActivityHelp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/puzzle_logo2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:text="Game Tips - In 'My PUZZLE', your goal is to arrange the tiles numbered from 1 to 8 in the correct order.\nYou can slide the tiles to the right, left, top, or bottom to merge them. The gameplay is easy, but it's great for improving your reflexes and strategic thinking!\n\nMain Features:\n- The game has a simple and user-friendly interface.\n- The tiles must be arranged in order from 1 to 8.\n- Test your time during gameplay;\n\nDesigned for puzzle enthusiasts who appreciate quick, engaging, and thought-provoking puzzle games. Give this project a try and become a guide for spending relaxing time! Get the 'My PUZZLE' game now for an exciting time-passing experience! Start evaluating the game and share your results with your friends. Have fun finding the correct positions!\n\nMay success and happiness be with you!
+\n\n• Created by a student of Sabaragamuwa University : Christhurasa Roshan"
+            android:textColor="@color/white"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/logo" />
+
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/desc" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
