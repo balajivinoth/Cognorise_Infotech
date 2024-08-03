@@ -1,2 +1,2 @@
 
-the andriod applications are included
+the andriod applications are included/
